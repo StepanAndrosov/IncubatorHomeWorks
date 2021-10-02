@@ -1,0 +1,48 @@
+.message {
+    max-width: 400px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: darkgray;
+    align-items: end;
+}
+.ava {
+    padding: 5px;
+    max-width:50px;
+    border-radius: 50px;
+}
+.name {
+    padding: 5px;
+    color: black;
+}
+.text {
+    text-align: start;
+    display: block;
+    padding: 5px;
+    color: white;
+}
+.time {
+    text-align: end;
+    display: block;
+    padding: 5px;
+    color: darkgray;
+}
+.messageItem {
+    position: relative;
+    min-width: 250px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+.messageItem:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -14px;
+    bottom: 0px;
+    border: 15px solid;
+    border-color: transparent transparent blueviolet transparent;
+}
+
