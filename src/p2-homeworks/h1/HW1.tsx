@@ -1,6 +1,6 @@
 import React from 'react'
 import Message from "./Message";
-
+import style from "./Message.module.css"
 export type MessageDataType = {
     avatar: string
     name: string
@@ -16,7 +16,7 @@ const messageData: MessageDataType = {
 
 function HW1() {
     return (
-        <div>
+        <div className={style.Wrapper}>
             <hr/>
             homeworks 1
 

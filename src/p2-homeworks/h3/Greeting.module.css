@@ -1,7 +1,33 @@
-.someClass {
 
+.Greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: darkgray;
+}
+
+input {
+    margin-right: 10px;
+    height: 20px;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 20px;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.total {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.spanError {
+    padding-left: 10px;
+    color: red;
 }

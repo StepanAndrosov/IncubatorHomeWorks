@@ -1,4 +1,8 @@
+.Wrapper {
+}
+
 .message {
+    margin-left: 50px;
     max-width: 400px;
     padding-left: 20px;
     padding-top: 15px;
@@ -41,7 +45,7 @@
     width: 0;
     height: 0;
     left: -14px;
-    bottom: 0px;
+    bottom: 0;
     border: 15px solid;
     border-color: transparent transparent blueviolet transparent;
 }
