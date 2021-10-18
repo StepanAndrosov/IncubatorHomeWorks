@@ -1,7 +1,35 @@
-.checkbox {
+.label {
+    margin: 5px;
+    padding-bottom: 15px;
+}
+.checkbox:checked,
+.checkbox:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
 
+.checkbox:checked, .label,
+.checkbox:not(:checked), .label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.checkbox:checked, .label:before,
+.checkbox:not(:checked), .label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    /*border: 1px solid #dddddd;*/
+    /*background-color: #ffffff;*/
 }
 
 .spanClassName {
-
+    padding-left: 5px;
+    font-weight: bold;
 }

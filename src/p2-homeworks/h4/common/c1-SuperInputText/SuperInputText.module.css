@@ -1,12 +1,31 @@
 .superInput {
-
+    outline: none;
+    min-width: 350px;
+    min-height: 30px;
+    margin: 20px 10px 5px 10px;
+    padding: 3px 3px 3px 15px;
+    background-color: azure;
+    color: darkslateblue;
+    font-weight: bold;
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+}
+.superInput:focus {
+    border: 3px solid white;
+    background-color: darkslateblue;
+    color: white;
 }
 
 .errorInput {
     border: 3px solid lime;
     background: red;
+    opacity: 0.7;
 }
-
+.errorInput:focus {
+    border: 3px solid lime;
+    background: red;
+    opacity: 0.7;
+}
 .error {
     color: red;
 }

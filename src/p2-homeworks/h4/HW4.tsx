@@ -5,8 +5,8 @@ import SuperButton from './common/c2-SuperButton/SuperButton'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
 function HW4() {
-    const [text, setText] = useState<string>('')
-    const error = text ? '' : 'error'
+    const [text, setText] = useState<string>('here you can enter text')
+    const error = text ? '' : 'this field is required'
 
     const showAlert = () => {
         if (error) {
@@ -20,7 +20,7 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
-        <div>
+        <div className={s.HW4}>
             <hr/>
             homeworks 4
 
@@ -30,7 +30,7 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // spanClassName={s.testSpanError}
+                    //spanClassName={s.testSpanError}
                 />
 
                 <SuperInputText
