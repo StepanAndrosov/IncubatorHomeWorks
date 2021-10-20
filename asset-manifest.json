@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ncubatorHomeWorks/static/css/main.249215ce.chunk.css",
+    "main.js": "/ncubatorHomeWorks/static/js/main.fd03f2d4.chunk.js",
+    "main.js.map": "/ncubatorHomeWorks/static/js/main.fd03f2d4.chunk.js.map",
+    "runtime-main.js": "/ncubatorHomeWorks/static/js/runtime-main.4b2bcb89.js",
+    "runtime-main.js.map": "/ncubatorHomeWorks/static/js/runtime-main.4b2bcb89.js.map",
+    "static/js/2.0cbdf5e7.chunk.js": "/ncubatorHomeWorks/static/js/2.0cbdf5e7.chunk.js",
+    "static/js/2.0cbdf5e7.chunk.js.map": "/ncubatorHomeWorks/static/js/2.0cbdf5e7.chunk.js.map",
+    "index.html": "/ncubatorHomeWorks/index.html",
+    "precache-manifest.fc229c751de89704fe41aadac397c2df.js": "/ncubatorHomeWorks/precache-manifest.fc229c751de89704fe41aadac397c2df.js",
+    "service-worker.js": "/ncubatorHomeWorks/service-worker.js",
+    "static/css/main.249215ce.chunk.css.map": "/ncubatorHomeWorks/static/css/main.249215ce.chunk.css.map",
+    "static/js/2.0cbdf5e7.chunk.js.LICENSE.txt": "/ncubatorHomeWorks/static/js/2.0cbdf5e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b2bcb89.js",
+    "static/js/2.0cbdf5e7.chunk.js",
+    "static/css/main.249215ce.chunk.css",
+    "static/js/main.fd03f2d4.chunk.js"
+  ]
+}
