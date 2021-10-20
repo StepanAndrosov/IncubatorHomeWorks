@@ -1,0 +1,38 @@
+.Header {
+  margin: 5px;
+  display: flex;
+  .spanClick{
+    background-color: aquamarine;
+    padding: 2px;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+  }
+  .spanClick:hover, .spanClick:focus{
+    color: blueviolet;
+    box-shadow: 5px 5px 15px -10px black;
+  }
+  .spanClick:active {
+    color: #a675b3;
+    box-shadow: 1px 1px 2px #150a1e;
+  }
+  .navBlock{
+    display: none;
+  }
+  .navBlock.active {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  a:active {
+    color: indigo;
+    text-shadow: 1px 1px 1px white;
+  }
+  a:hover, a:focus {
+    color: indigo;
+    text-shadow: 1px 1px 5px gray;
+  }
+
+}
