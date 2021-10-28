@@ -1,0 +1,21 @@
+.editSpan {
+    display: inline-block;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.editSpan:not(.active):hover,
+.editSpan:not(.active):focus {
+    transition: color 500ms linear, text-shadow 500ms linear;
+    color: #fff;
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+.spanBlock {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.spanBlock img {
+    padding-right: 3px;
+    max-width: 18px;
+}
