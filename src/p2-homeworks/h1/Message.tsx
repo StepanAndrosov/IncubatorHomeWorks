@@ -6,7 +6,7 @@ function Message({avatar, name, message, time}: MessageDataType) {
     return (
         <div className={style.message}>
             <div>
-                <img className={style.ava} src={avatar}/>
+                <img className={style.ava} src={avatar} alt={"avatar"}/>
             </div>
             <div className={style.messageItem}>
                 <span className={style.name}>{name}</span>
