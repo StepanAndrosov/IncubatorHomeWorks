@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {NavLink} from "react-router-dom";
 import {PATH} from "./Routes";
 import style from "./Header.module.css"
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 function Header() {
 
@@ -13,7 +14,10 @@ function Header() {
 
     return (
         <div className={style.Header}>
-            <span onClick={switchLinks} className={style.spanClick}>Click</span>
+            <SuperButton
+                style={{alignItems: 'start' }}
+                onClick={switchLinks}
+            >Click</SuperButton>
             <div className={isActive}>
            <NavLink to={PATH.PRE_JUNIOR}>Pre-Junior</NavLink>
             <NavLink to={PATH.JUNIOR}>Junior</NavLink>

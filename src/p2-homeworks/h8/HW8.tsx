@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {CheckAC, homeWorkReducer, PersonType, SortAC} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import s from './HW8.module.css'
 
 // export type UserType =
 
@@ -28,17 +29,23 @@ function HW8() {
     const checkAge = () => setPeople(homeWorkReducer(initialPeople, CheckAC(18)))
 
     return (
-        <div>
+        <div >
             <hr/>
             homeworks 8
 
             {/*should work (должно работать)*/}
             {finalPeople}
-
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
-            <div><SuperButton onClick={checkAge}>check 18</SuperButton></div>
-
+            <div className={s.column}>
+                <div>
+                    <SuperButton style={{marginTop: '20px'}} onClick={sortUp}>sort up</SuperButton>
+                </div>
+                <div>
+                    <SuperButton style={{marginTop: '20px'}} onClick={sortDown}>sort down</SuperButton>
+                </div>
+                <div>
+                    <SuperButton style={{marginTop: '20px'}} onClick={checkAge}>check 18</SuperButton>
+                </div>
+            </div>
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}

@@ -53,8 +53,8 @@ function Clock() {
                 </span>
             )}
 
-            <SuperButton onClick={start}>start</SuperButton>
-            <SuperButton onClick={stop}>stop</SuperButton>
+            <SuperButton style={{marginTop: '20px'}} onClick={start}>start</SuperButton>
+            <SuperButton style={{marginTop: '20px'}} onClick={stop}>stop</SuperButton>
 
         </div>
     )

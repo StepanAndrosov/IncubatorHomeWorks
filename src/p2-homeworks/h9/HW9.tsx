@@ -1,5 +1,6 @@
 import React from 'react'
 import Clock from './Clock'
+import s from './HW9.module.css'
 
 function HW9() {
     return (
@@ -8,7 +9,9 @@ function HW9() {
             homeworks 9
 
             {/*should work (должно работать)*/}
-            <Clock/>
+            <div className={s.column}>
+                <Clock/>
+            </div>
 
             <hr/>
             {/*для личного творчества, могу проверить*/}

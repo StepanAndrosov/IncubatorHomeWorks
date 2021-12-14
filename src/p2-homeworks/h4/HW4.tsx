@@ -39,18 +39,19 @@ function HW4() {
 
                 {/*----------------------------------------------------*/}
 
-                <SuperButton>
+                <SuperButton style={{marginTop: '20px'}}>
                     default
                 </SuperButton>
 
                 <SuperButton
+                    style={{marginTop: '20px'}}
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                <SuperButton disabled>
+                <SuperButton style={{marginTop: '20px'}} disabled>
                     disabled
                 </SuperButton>
 
